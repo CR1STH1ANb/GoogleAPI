@@ -85,6 +85,8 @@ public class MainActivity extends FragmentActivity implements
                 .setTitle("FCA");
         Mapa.addMarker(new MarkerOptions().position(new LatLng(-1.012359, -79.471295)))
                 .setTitle("Polideportivo");
+        Mapa.addMarker(new MarkerOptions().position(new LatLng(-1.012289, -79.469204)))
+                .setTitle("Edificio Administrativo");
 
     }
     @Override
